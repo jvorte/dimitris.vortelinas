@@ -61,30 +61,31 @@ font-family: 'Square Peg', cursive; */
 
 /* ------------------------------------------------------- */
 #me1 img{
-height: 720px;
+height: 650px;
 float: left;
+margin: 70px 0 0 -10px;
 
 }
 #me1{
   background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #E9DFC5,#24243e, #030006, #030006); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #24243e, #0d0c1f, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #585651,#292938, #030006, #030006); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
-  height: 720px;
+  height: 730px;
 
 }
 #me2{
-  height: 720px;
+  height: 730px;
   background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #E9DFC5,#24243e, #030006, #030006); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to left, #24243e, #0d0c1f, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #585651,#292938, #030006, #030006); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 #projects{
-  height: 720px;
+  height: auto;
   background: #0f0c29;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #E9DFC5, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #E9DFC5,#E9DFC5, #E9DFC5, #DAEAC1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom, #f8f7f3,#e9e8e5, #edece9, #f5f6f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 #project-center{
@@ -94,10 +95,10 @@ padding-top: 0px;
 /* ------------------------------------------------------- */
 /* ------------------------------------------------------- */
 #contact{
-  height: 720px;
+  height: 710px;
   background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #9D265C, #9D265C, #9D265C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #9D265C,#9D265C, #9D265C, #DAEAC1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to bottom, #18181f, #0d0c1f, #14112b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #33322f,#21212b, #030006, #030006); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
 }
 
@@ -111,7 +112,10 @@ footer span{
   color: red;
   font-family: 'Square Peg', cursive;
   font-size: 30px;
-
+}
+footer{
+  background-color: #33322f;
+  color: #e9e8e5;
 }
 /* ------------------------------------------------------- */
 
