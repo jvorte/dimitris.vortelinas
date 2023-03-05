@@ -10,7 +10,11 @@ font-family: 'Square Peg', cursive; */
 * {
     margin: 0;
     padding: 0;
+
   }
+  body{
+   background-color: #030006;
+  }   
 #top-nav{
     background-color: #181823;
     /* background-color: #191B10; */
@@ -83,10 +87,7 @@ margin: 70px 0 0 -10px;
 }
 #projects{
   height: auto;
-  background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #E9DFC5, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #f8f7f3,#e9e8e5, #edece9, #f5f6f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-color: #f3eef8;
 }
 #project-center{
 
@@ -96,11 +97,23 @@ padding-top: 0px;
 /* ------------------------------------------------------- */
 #contact{
   height: 710px;
-  background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #18181f, #0d0c1f, #14112b);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #33322f,#21212b, #030006, #030006); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+  background-color: #030006;
 }
+#contact h1 ,p {
+color: white;
+
+}
+#contact-text{
+  padding-left: ;
+  padding-top: 16rem;
+  }
+  #contact-input{
+    padding-left: ;
+    padding-top: 16rem;
+    }
+    #contact-input label{
+     color: #f3eef8;
+      }
 
 /* ------------------------------------------------------- */
 
@@ -114,7 +127,7 @@ footer span{
   font-size: 30px;
 }
 footer{
-  background-color: #33322f;
+  background-color: #030006;
   color: #e9e8e5;
 }
 /* ------------------------------------------------------- */
