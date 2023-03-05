@@ -99,10 +99,17 @@ padding-top: 0px;
   height: 800px;
   background-color: #030006;
 }
-#contact h1 ,p {
+#contact h1 {
 color: white;
+font-family: 'Manrope', sans-serif;
+font-size: 4rem;
 
 }
+#contact p ,label {
+  color: white;
+  font-family: 'Manrope', sans-serif;
+  
+  }
 #contact-text{
   padding-left: ;
   padding-top: 16rem;
